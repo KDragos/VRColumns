@@ -1,0 +1,1 @@
+This is a basic Google Cardboard project setup. The idea is to fork this project to create new Cardboard projects easily.
