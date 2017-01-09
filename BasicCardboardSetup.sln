@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCardboardSetup", "Assembly-CSharp.csproj", "{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCardboardSetup", "Assembly-CSharp-Editor.csproj", "{EDD21A84-A85B-18E8-841F-728CFD747992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD21A84-A85B-18E8-841F-728CFD747992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD21A84-A85B-18E8-841F-728CFD747992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD21A84-A85B-18E8-841F-728CFD747992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD21A84-A85B-18E8-841F-728CFD747992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
