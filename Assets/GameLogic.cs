@@ -40,7 +40,7 @@ public class GameLogic : MonoBehaviour {
 		if (playerSelection1 != null) {
 			Debug.Log("Selecting the second column.");
 			playerSelection2 = column;
-			// Swap columns
+			SwapColumns();
 			// Look for matches and tally score.
 			ResetSelections();
 			return;
@@ -53,5 +53,19 @@ public class GameLogic : MonoBehaviour {
 		playerSelection1 = null;
 		playerSelection2 = null;
 	}
+
+	private void SwapColumns() {
+		Vector3 column2Start = playerSelection2.transform.position;
+		Quaternion rotation2 = playerSelection2.transform.rotation;
+		Vector3 column1Start = playerSelection1.transform.position;
+		Quaternion rotation1 = playerSelection1.transform.rotation;
+
+		iTween.MoveTo (playerSelection1, column2Start, 5f);
+		iTween.MoveTo (playerSelection2, column1Start, 5f);
+		playerSelection1.transform.rotation = rotation2;
+		playerSelection2.transform.rotation = rotation1;
+
+	}
+
 
 }
